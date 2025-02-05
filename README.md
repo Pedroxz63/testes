@@ -479,7 +479,7 @@ function Luxt1.CreateWindow(libName, logoId)
                         debounce1 = true
                         TextButton:TweenSize(UDim2.new(0, 359,0, 30), "InOut", "Quint", 0.18, true)
                         game.TweenService:Create(TextButton, TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),{
-                            BackgroundColor3 = Color3.fromRGB(101, 168, 157),
+                            BackgroundColor3 = Color3.fromRGB(153, 51, 0),
                             TextColor3 = Color3.fromRGB(0,0,0)
                         }):Play()
                         wait(1)
@@ -489,15 +489,15 @@ function Luxt1.CreateWindow(libName, logoId)
                 
                 TextButton.MouseEnter:Connect(function()
                     game.TweenService:Create(TextButton, TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),{
-                        BackgroundColor3 = Color3.fromRGB(30, 30, 30),
-                        TextColor3 = Color3.fromRGB(250,250,250)
+                        BackgroundColor3 = Color3.fromRGB(153, 51, 0),
+                        TextColor3 = Color3.fromRGB(153, 51, 0)
                     }):Play()
                 end)
                 
                 TextButton.MouseLeave:Connect(function()
                     game.TweenService:Create(TextButton, TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),{
-                        BackgroundColor3 = Color3.fromRGB(18,18,18),
-                        TextColor3 = Color3.fromRGB(180, 180, 180)
+                        BackgroundColor3 = Color3.fromRGB(153, 51, 0
+                        TextColor3 = Color3.fromRGB(153, 51, 0)
                     }):Play()
                 end)
             end
