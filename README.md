@@ -25,7 +25,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     key1.Name = "key1"
     key1.Parent = sideHeading
-    key1.BackgroundColor3 = Color3.fromRGB(32, 25, 53)
+    key1.BackgroundColor3 = Color3.fromRGB(204, 51, 0)
     key1.Position = UDim2.new(0.0508064516, 0, 0.935261786, 0)
     key1.Size = UDim2.new(0, 76, 0, 22)
     key1.ZIndex = 2
@@ -62,7 +62,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     keybindInfo1.Name = "keybindInfo"
     keybindInfo1.Parent = sideHeading
-    keybindInfo1.BackgroundColor3 = Color3.fromRGB(32, 25, 53)
+    keybindInfo1.BackgroundColor3 = Color3.fromRGB(204, 51, 0)
     keybindInfo1.BackgroundTransparency = 1.000
     keybindInfo1.Position = UDim2.new(0.585064113, 0, 0.935261846, 0)
     keybindInfo1.Size = UDim2.new(0, 50, 0, 22)
@@ -116,13 +116,13 @@ function Luxt1.CreateWindow(libName, logoId)
 
     MainFrame.Name = "MainFrame"
     MainFrame.Parent = shadow
-    MainFrame.BackgroundColor3 = Color3.fromRGB(32, 25, 53)
+    MainFrame.BackgroundColor3 = Color3.fromRGB(204, 51, 0)
     MainFrame.Position = UDim2.new(0.048, 0,0.075, 0)
     MainFrame.Size = UDim2.new(0, 553, 0, 452)
 
     sideHeading.Name = "sideHeading"
     sideHeading.Parent = MainFrame
-    sideHeading.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+    sideHeading.BackgroundColor3 = Color3.fromRGB(204, 51, 0)
     sideHeading.Size = UDim2.new(0, 155, 0, 452)
     sideHeading.ZIndex = 2
 
@@ -132,14 +132,14 @@ function Luxt1.CreateWindow(libName, logoId)
 
     sideCover.Name = "sideCover"
     sideCover.Parent = sideHeading
-    sideCover.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+    sideCover.BackgroundColor3 = Color3.fromRGB(204, 51, 0)
     sideCover.BorderSizePixel = 0
     sideCover.Position = UDim2.new(0.909677446, 0, 0, 0)
     sideCover.Size = UDim2.new(0, 14, 0, 452)
 
     hubLogo.Name = "hubLogo"
     hubLogo.Parent = sideHeading
-    hubLogo.BackgroundColor3 = Color3.fromRGB(32, 25, 53)
+    hubLogo.BackgroundColor3 = Color3.fromRGB(204, 51, 0)
     hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
     hubLogo.Size = UDim2.new(0, 30, 0, 30)
     hubLogo.ZIndex = 2
@@ -151,7 +151,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     hubName.Name = "hubName"
     hubName.Parent = sideHeading
-    hubName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    hubName.BackgroundColor3 = Color3.fromRGB(204, 51, 0)
     hubName.BackgroundTransparency = 1.000
     hubName.Position = UDim2.new(0.290000081, 0, 0.0299999975, 0)
     hubName.Size = UDim2.new(0, 110, 0, 16)
@@ -166,7 +166,7 @@ function Luxt1.CreateWindow(libName, logoId)
     tabFrame.Name = "tabFrame"
     tabFrame.Parent = sideHeading
     tabFrame.Active = true
-    tabFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    tabFrame.BackgroundColor3 = Color3.fromRGB(204, 51, 0)
     tabFrame.BackgroundTransparency = 1.000
     tabFrame.BorderSizePixel = 0
     tabFrame.Position = UDim2.new(0.0761478543, 0, 0.126385808, 0)
@@ -180,7 +180,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     usename.Name = "usename"
     usename.Parent = sideHeading
-    usename.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    usename.BackgroundColor3 = Color3.fromRGB(204, 51, 0)
     usename.BackgroundTransparency = 1.000
     usename.Position = UDim2.new(0.290000081, 0, 0.0700000152, 0)
     usename.Size = UDim2.new(0, 110, 0, 16)
@@ -198,7 +198,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     wave.Name = "wave"
     wave.Parent = MainFrame
-    wave.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    wave.BackgroundColor3 = Color3.fromRGB(204, 51, 0)
     wave.BackgroundTransparency = 1.000
     wave.Position = UDim2.new(0.0213434305, 0, 0, 0)
     wave.Size = UDim2.new(0.97865659, 0, 0.557522118, 0)
@@ -213,7 +213,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     framesAll.Name = "framesAll"
     framesAll.Parent = MainFrame
-    framesAll.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    framesAll.BackgroundColor3 = Color3.fromRGB(204, 51, 0)
     framesAll.BackgroundTransparency = 1.000
     framesAll.BorderSizePixel = 0
     framesAll.Position = UDim2.new(0.296564192, 0, 0.0242873337, 0)
@@ -222,7 +222,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     shadow.Name = "shadow"
     shadow.Parent = LuxtLib
-    shadow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    shadow.BackgroundColor3 = Color3.fromRGB(204, 51, 0)
     shadow.BackgroundTransparency = 1.000
     shadow.Position = UDim2.new(0.319562584, 0, 0.168689325, 0)
     shadow.Size = UDim2.new(0, 609, 0, 530)
