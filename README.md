@@ -489,8 +489,8 @@ function Luxt1.CreateWindow(libName, logoId)
                 
                 TextButton.MouseEnter:Connect(function()
                     game.TweenService:Create(TextButton, TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),{
-                        BackgroundColor3 = Color3.fromRGB(30, 30, 30),
-                        TextColor3 = Color3.fromRGB(250,250,250)
+                        BackgroundColor3 = Color3.fromRGB(153, 0, 0),
+                        TextColor3 = Color3.fromRGB(153, 0, 0)
                     }):Play()
                 end)
                 
