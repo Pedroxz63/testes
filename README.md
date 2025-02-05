@@ -384,7 +384,7 @@ function Luxt1.CreateWindow(libName, logoId)
             sectionName.Size = UDim2.new(0, 302, 0, 36)
             sectionName.Font = Enum.Font.GothamSemibold
             sectionName.Text = sectionText
-            sectionName.TextColor3 = Color3.fromRGB(153, 255, 238)
+            sectionName.TextColor3 = Color3.fromRGB(153, 0, 0)
             sectionName.TextSize = 14.000
             sectionName.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -444,7 +444,7 @@ function Luxt1.CreateWindow(libName, logoId)
                 TextButton.AutoButtonColor = false
                 TextButton.Text = btnText
                 TextButton.Font = Enum.Font.GothamSemibold
-                TextButton.TextColor3 = Color3.fromRGB(180, 180, 180)
+                TextButton.TextColor3 = Color3.fromRGB(153, 0, 0)
                 TextButton.TextSize = 14.000
 
                 local debounce = false
@@ -470,7 +470,7 @@ function Luxt1.CreateWindow(libName, logoId)
                     TextButton:TweenSize(UDim2.new(0, 365,0, 36), "InOut", "Quint", 0.18, true)
                     game.TweenService:Create(TextButton, TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),{
                         BackgroundColor3 = Color3.fromRGB(18,18,18),
-                        TextColor3 = Color3.fromRGB(180, 180, 180)
+                        TextColor3 = Color3.fromRGB(153, 0, 0)
                     }):Play()
                 end)
                 
@@ -579,12 +579,12 @@ function Luxt1.CreateWindow(libName, logoId)
                                 on = not on
                                  callback(on) 
                                 if on then
-                                    checkBtn.Parent.toggleInfo.TextColor3 = Color3.fromRGB(153, 255, 238)
+                                    checkBtn.Parent.toggleInfo.TextColor3 = Color3.fromRGB(153, 0, 0)
                                     checkBtn.ImageColor3 = Color3.fromRGB(153, 255, 238)
                                     checkBtn.ImageRectOffset = Vector2.new(4, 836)
                                     checkBtn.ImageRectSize = Vector2.new(48,48)
                                 else
-                                    checkBtn.Parent.toggleInfo.TextColor3 = Color3.fromRGB(97, 97, 97)
+                                    checkBtn.Parent.toggleInfo.TextColor3 = Color3.fromRGB(153, 0, 0)
                                     checkBtn.ImageColor3 = Color3.fromRGB(97, 97, 97)
                                     checkBtn.ImageRectOffset = Vector2.new(940, 784)
                                     checkBtn.ImageRectSize = Vector2.new(48,48)
@@ -642,7 +642,7 @@ function Luxt1.CreateWindow(libName, logoId)
                         key.ZIndex = 2
                         key.Font = Enum.Font.GothamSemibold
                         key.Text = oldKey
-                        key.TextColor3 = Color3.fromRGB(153, 255, 238)
+                        key.TextColor3 = Color3.fromRGB(153, 0, 0)
                         key.TextSize = 14.000
 
                         UICorner_2.CornerRadius = UDim.new(0, 5)
@@ -1159,7 +1159,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                     dropdownItem1.ZIndex = 2
                                     dropdownItem1.Font = Enum.Font.GothamSemibold
                                     dropdownItem1.Text = dropInfo
-                                    dropdownItem1.TextColor3 = Color3.fromRGB(153, 255, 238)
+                                    dropdownItem1.TextColor3 = Color3.fromRGB(153, 0, 0)
                                     dropdownItem1.TextSize = 14.000
                                     dropdownItem1.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -1199,7 +1199,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                         optionBtn1.AutoButtonColor = false
                                         optionBtn1.Font = Enum.Font.GothamSemibold
                                         optionBtn1.Text = "  "..v
-                                        optionBtn1.TextColor3 = Color3.fromRGB(120, 200, 187)
+                                        optionBtn1.TextColor3 = Color3.fromRGB(153, 0, 0)
                                         optionBtn1.TextSize = 14.000
                                         optionBtn1.TextXAlignment = Enum.TextXAlignment.Left
     
@@ -1225,7 +1225,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                             optionBtn1:TweenSize(UDim2.new(0, 335,0, 30), "InOut", "Quint", 0.12, true)
                                             game.TweenService:Create(optionBtn1, TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),{
                                                 BackgroundColor3 = Color3.fromRGB(21,21,21),
-                                                TextColor3 = Color3.fromRGB(180, 180, 180)
+                                                TextColor3 = Color3.fromRGB(153, 0, 0)
                                             }):Play()
                                         end)
                                         
@@ -1240,14 +1240,14 @@ function Luxt1.CreateWindow(libName, logoId)
                                         optionBtn1.MouseEnter:Connect(function()
                                             game.TweenService:Create(optionBtn1, TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),{
                                                 BackgroundColor3 = Color3.fromRGB(15, 15, 15),
-                                                TextColor3 = Color3.fromRGB(250,250,250)
+                                                TextColor3 = Color3.fromRGB(153, 0, 0)
                                             }):Play()
                                         end)
                                         
                                         optionBtn1.MouseLeave:Connect(function()
                                             game.TweenService:Create(optionBtn1, TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),{
                                                 BackgroundColor3 = Color3.fromRGB(21, 21, 21),
-                                                TextColor3 = Color3.fromRGB(120, 200, 187)
+                                                TextColor3 = Color3.fromRGB(153, 0, 0)
                                             }):Play()
                                         end)
                                 end
