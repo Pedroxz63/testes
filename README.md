@@ -166,7 +166,7 @@ function Luxt1.CreateWindow(libName, logoId)
     tabFrame.Name = "tabFrame"
     tabFrame.Parent = sideHeading
     tabFrame.Active = true
-    tabFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    tabFrame.BackgroundColor3 = Color3.fromRGB(153, 38, 0)
     tabFrame.BackgroundTransparency = 1.000
     tabFrame.BorderSizePixel = 0
     tabFrame.Position = UDim2.new(0.0761478543, 0, 0.126385808, 0)
@@ -198,7 +198,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     wave.Name = "wave"
     wave.Parent = MainFrame
-    wave.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    wave.BackgroundColor3 = Color3.fromRGB(153, 38, 0)
     wave.BackgroundTransparency = 1.000
     wave.Position = UDim2.new(0.0213434305, 0, 0, 0)
     wave.Size = UDim2.new(0.97865659, 0, 0.557522118, 0)
@@ -213,7 +213,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     framesAll.Name = "framesAll"
     framesAll.Parent = MainFrame
-    framesAll.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    framesAll.BackgroundColor3 = Color3.fromRGB(153, 38, 0
     framesAll.BackgroundTransparency = 1.000
     framesAll.BorderSizePixel = 0
     framesAll.Position = UDim2.new(0.296564192, 0, 0.0242873337, 0)
@@ -222,7 +222,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     shadow.Name = "shadow"
     shadow.Parent = LuxtLib
-    shadow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    shadow.BackgroundColor3 = Color3.fromRGB(153, 38, 0)
     shadow.BackgroundTransparency = 1.000
     shadow.Position = UDim2.new(0.319562584, 0, 0.168689325, 0)
     shadow.Size = UDim2.new(0, 609, 0, 530)
@@ -244,14 +244,14 @@ function Luxt1.CreateWindow(libName, logoId)
 
         tabBtnFrame.Name = "tabBtnFrame"
         tabBtnFrame.Parent = tabFrame
-        tabBtnFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        tabBtnFrame.BackgroundColor3 = Color3.fromRGB(153, 38, 0)
         tabBtnFrame.BackgroundTransparency = 1.000
         tabBtnFrame.Size = UDim2.new(0, 135, 0, 30)
         tabBtnFrame.ZIndex = 2
 
         tabBtn.Name = "tabBtn"
         tabBtn.Parent = tabBtnFrame
-        tabBtn.BackgroundColor3 = Color3.fromRGB(166, 248, 255)
+        tabBtn.BackgroundColor3 = Color3.fromRGB(153, 38, 0)
         tabBtn.BackgroundTransparency = 1.000
         tabBtn.Position = UDim2.new(0.245534033, 0, 0, 0)
         tabBtn.Size = UDim2.new(0, 101, 0, 30)
