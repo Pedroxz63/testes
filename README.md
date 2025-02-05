@@ -62,14 +62,14 @@ function Luxt1.CreateWindow(libName, logoId)
 
     keybindInfo1.Name = "keybindInfo"
     keybindInfo1.Parent = sideHeading
-    keybindInfo1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    keybindInfo1.BackgroundColor3 = Color3.fromRGB(32, 25, 53)
     keybindInfo1.BackgroundTransparency = 1.000
     keybindInfo1.Position = UDim2.new(0.585064113, 0, 0.935261846, 0)
     keybindInfo1.Size = UDim2.new(0, 50, 0, 22)
     keybindInfo1.ZIndex = 2
     keybindInfo1.Font = Enum.Font.GothamSemibold
     keybindInfo1.Text = "Close"
-    keybindInfo1.TextColor3 = Color3.fromRGB(255, 255, 255)
+    keybindInfo1.TextColor3 = Color3.fromRGB(32, 25, 53)
     keybindInfo1.TextSize = 13.000
     keybindInfo1.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -116,7 +116,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     MainFrame.Name = "MainFrame"
     MainFrame.Parent = shadow
-    MainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+    MainFrame.BackgroundColor3 = Color3.fromRGB(32, 25, 53)
     MainFrame.Position = UDim2.new(0.048, 0,0.075, 0)
     MainFrame.Size = UDim2.new(0, 553, 0, 452)
 
@@ -139,7 +139,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     hubLogo.Name = "hubLogo"
     hubLogo.Parent = sideHeading
-    hubLogo.BackgroundColor3 = Color3.fromRGB(153, 255, 238)
+    hubLogo.BackgroundColor3 = Color3.fromRGB(32, 25, 53)
     hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
     hubLogo.Size = UDim2.new(0, 30, 0, 30)
     hubLogo.ZIndex = 2
